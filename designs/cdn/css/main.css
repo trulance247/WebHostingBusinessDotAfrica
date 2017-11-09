@@ -1485,10 +1485,14 @@ body.home .page-title-wrapper {
 .pricing-box .priced-box span {
   font-size: 26px;
   line-height: 28px;
-  top: 5px;
+  top: -20px;
   position: absolute;
   width: 20px;
   left: 23px;
+}
+.per-year{
+  top: 45px !important;
+  font-size: 20px !important;
 }
 .pricing-box-s2 {
   overflow: hidden;
