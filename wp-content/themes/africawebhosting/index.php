@@ -6,27 +6,12 @@
       <meta charset="utf-8">
       <meta http-equiv="x-ua-compatible" content="ie=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1">
-      <meta name="description" content="Hosting Pro is a clean and elegant hosting site HTML Template, created for people with life passion in hosting business">
-      <!--call font-awesome stylesheet-->
-      <link rel="stylesheet" href="cdn/css/font-awesome.min.css" />
-      <!--call materialize stylesheet-->
-      <link rel="stylesheet" href="cdn/css/bootstrap.min.css" />
-      <!--call animate stylesheet-->
-      <link rel="stylesheet" href="cdn/css/animate.min.css" />
-      <!-- nav menu CSS -->
-      <link rel="stylesheet" href="cdn/css/superfish.min.css"/>
-      <link rel="stylesheet" href="cdn/css/slicknav.min.css"/>
-      <!--call owl carousel stylesheet-->
-      <link rel="stylesheet" href="cdn/css/owl.carousel.min.css" />
-      <!--call roboto font stylesheet-->
-      <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">	  
-      <!--call main stylesheet-->
-      <link rel="stylesheet" href="cdn/css/main.css" />
-      <!--call responsive stylesheet-->
-      <link rel="stylesheet" href="cdn/css/responsive.css" />
+      <meta name="description" content="Africa Web Hosting Business is a clean and elegant hosting site HTML Template, created for people with life passion in hosting business">
       <!--call favicon icon-->
       <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
       <link rel="icon" href="favicon.ico" type="image/x-icon">
+      
+      <?php wp_head(); ?>
    </head>
    <body class="home">
       <main id="page" class="hfeedsite">
@@ -135,6 +120,7 @@
                </div>
             </div>
          </div>
+
          <!--themeix-feature-box start-->
          <div class="themeix-feature-box bgc00 ptb95 center">
             <div class="container">
@@ -179,6 +165,7 @@
                </div>
             </div>
          </div>
+         
          <!--themeix-package-info start-->
          <div class="themeix-package-info ptb110 bgc03">
             <div class="container">
@@ -221,6 +208,7 @@
                </div>
             </div>
          </div>
+         
          <!--themeix-call-out start-->
          <div class="themeix-call-out ptb50 bgc02">
             <div class="container">
@@ -234,6 +222,7 @@
                </div>
             </div>
          </div>
+         
          <!--themeix-extra-service-box start-->
          <div class="themeix-extra-feature-box ptb100 center">
             <div class="container">
@@ -312,6 +301,7 @@
                </div>
             </div>
          </div>
+         
          <!--themeix-pricing start-->
          <div class="themeix-pricing bgc03 ptb95 center">
             <div class="container">
@@ -483,6 +473,7 @@
                </div>
             </div>
          </div>
+         
          <!--themeix-blog start-->
          <div class="themeix-blog ptb100 bgc00">
             <div class="container">
@@ -544,6 +535,7 @@
                </div>
             </div>
          </div>
+         
          <!--themeix-testimonial start-->
          <div class="themeix-testimonial ptb95 bgimg01">
             <div class="container">
@@ -625,6 +617,7 @@
                </div>
             </div>
          </div>
+         
          <!--themeix-newsletter start-->
          <div class="themeix-newsletter ptb50  bgc01">
             <div class="container">
@@ -648,6 +641,7 @@
                </div>
             </div>
          </div>
+         
          <!--themeix-footer start-->
          <footer class="themeix-footer">
             <div class="container">
@@ -655,7 +649,7 @@
                   <div class="col-md-3 col-sm-6">
                      <div class="widget wow fadeIn">
                         <a class="footer-brand" href="#">
-						<img src="cdn/img/footer-icon.png" alt="" />
+						        <img src="cdn/img/footer-icon.png" alt="" />
                         </a>
                         <p>Vestibulum quis cursus mi, vitae mollis metus. Nulam eu lects gravida, bibendum enim in, vulputate erat. Vestibulum ullamcorper ornare magna</p>
                         <ul class="footer-icon">
@@ -709,7 +703,7 @@
                <div class="row">
                   <div class="col-md-12">
                      <address class="copyright-info center">
-                        <p class="clearfix">Web Hosting Business Africa &copy; 2017  - <a href="#">All Rights Reserved</p>
+                        <p class="clearfix">Web Hosting Business Africa &copy; 2017  - <a href="#">All Rights Reserved.</a> </p>
                      </address>
                   </div>
                </div>
@@ -717,16 +711,8 @@
          </footer>
          <a id="scrollUp" href="#top" title="Scroll to top"></a>
       </main>
-      <!-- javascript plugin -->
-      <script src="cdn/js/jquery-3.2.1.min.js"></script>
-      <script src="cdn/js/bootstrap.min.js"></script> 
-      <script src="cdn/js/jquery.vide.min.js"></script> 
-      <script src="cdn/js/superfish.min.js"></script> 
-      <script src="cdn/js/wow.min.js"></script> 
-      <script src="cdn/js/owl.carousel.min.js"></script> 
-      <script src="cdn/js/jquery.slicknav.min.js"></script> 
-      <script src="cdn/js/jquery.scrollUp.min.js"></script> 	  
-      <script src="cdn/js/custom.js"></script>
+      
+      <?php wp_footer(); ?>
    </body>
 
 </html>
